@@ -1,0 +1,76 @@
+.container{
+    height: 60px;
+    background-color: rgb(101, 101, 110);
+    color: white;
+    align-items: center;
+    text-align: center;
+}
+.wrapper{
+    display: flex;
+    font-size: 30px;
+    text-align: center;
+    align-items: center;
+    justify-content: space-between;
+}
+.left{
+flex:1;
+display: flex;
+align-items: center;
+}
+.Language{
+    cursor: pointer;
+    font-size: 14px;
+    margin-top: 10px;
+}
+
+.SearchContainer{
+    border: 0.5px solid lightgray;
+    display: flex;
+    align-items: center;
+    margin-left: 25px;
+    padding: 5px;
+    margin-top: 10px;
+}
+.center{
+    flex:1;
+    display: flex;
+    align-items: center;
+    text-align: center;
+}
+.logo{
+    font-size: 39px;
+    font-weight: bold;
+    align-items: center;
+    text-align: center;
+    font-family: cursive;
+    justify-content: center;
+    margin-left: 120px;
+
+    }
+.right{
+    flex:1;
+    font-size: 17px;
+    color: white;
+   display: flex;
+   justify-content: flex-end;
+   align-items: center;
+}
+.register{
+margin-left: 21px;
+align-items: center;
+color: white;
+font-size: 17px;
+text-decoration: none;
+}
+.sign-in{
+margin-left: 21px;
+align-items: center;
+color: white;
+font-size: 17px;
+text-decoration: none;
+}
+.badge{
+margin-left:20px;
+align-items: center;
+margin-right: 10px;
+}

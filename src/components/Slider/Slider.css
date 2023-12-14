@@ -1,0 +1,19 @@
+.slider{
+    display: flex;
+    align-items: center;
+    text-align: center;
+    justify-content: center;
+    width: 100%;
+    background-color: rgb(88, 91, 109);
+    height: 100vh;
+    position: relative;
+    overflow: hidden;
+}
+.imgContainer{
+flex: 1;
+height: 100%;
+}
+.infoContainer{
+flex: 1;
+padding: 50px;
+}
